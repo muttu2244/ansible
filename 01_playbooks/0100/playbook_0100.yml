@@ -1,0 +1,7 @@
+---
+- hosts: demoserver
+  tasks:
+    - name: Make sure all OS patches are applied
+      #command: ssh -i /mnt/d/AnsibleExamples/ansible3.pem ec2-user@13.127.58.182 -t 'sudo yum update -y'
+      shell: yum update -y
+      become: yes 

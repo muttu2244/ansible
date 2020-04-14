@@ -1,0 +1,13 @@
+IDE, Basic programming constructs
+Deployment ,
+PYTHON and Ansible
+Python and IAC (Boto3 and/or Terraform) 
+
+
+
+
+Deployments using (https://www.youtube.com/watch?v=vGphzPLemZE) 
+1) Ngrok
+2) Heroku
+3) AWS lambda with Zappa (3rd party tool wrapper around AWS lambda) 
+4) Docker.
